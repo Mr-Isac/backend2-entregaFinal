@@ -1,0 +1,28 @@
+{
+  "name": "entrega-final",
+  "version": "1.0.0",
+  "description": "Entrega Final Backend",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.2.2",
+    "express": "^5.2.1",
+    "express-handlebars": "^9.0.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongodb": "^7.5.0",
+    "mongoose": "^8.18.2",
+    "mongoose-paginate-v2": "^1.9.1",
+    "nodemailer": "^10.0.15",
+    "passport": "^0.7.0",
+    "passport-jwt": "^4.0.1",
+    "socket.io": "^4.8.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}

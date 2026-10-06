@@ -31,7 +31,7 @@ El proyecto incluye funcionalidades de:
 
 Repositorio del proyecto:
 
-https://github.com/Mr-Isac/backend-entregaFinal
+https://github.com/Mr-Isac/backend2-entregaFinal
 
 ---
 
@@ -58,13 +58,13 @@ https://github.com/Mr-Isac/backend-entregaFinal
 Clonar el repositorio:
 
 ```bash
-git clone https://github.com/Mr-Isac/backend-entregaFinal.git
+git clone https://github.com/Mr-Isac/backend2-entregaFinal.git
 ```
 
 Ingresar a la carpeta del proyecto:
 
 ```bash
-cd backend-entregaFinal
+cd backend2-entregaFinal
 ```
 
 Instalar las dependencias:
@@ -77,7 +77,7 @@ npm install
 
 # Configuración de variables de entorno
 
-El proyecto utiliza variables de entorno para almacenar la configuración sensible.
+El proyecto utiliza variables de entorno para almacenar la configuración necesaria.
 
 Crear un archivo `.env` en la raíz del proyecto:
 
@@ -519,17 +519,7 @@ GET /api/products/:pid
 POST /api/products
 ```
 
-Requiere:
-
-```text
-Authorization: Bearer TOKEN
-```
-
-Rol requerido:
-
-```text
-admin
-```
+Requiere autenticación mediante JWT y rol `admin`.
 
 ---
 
@@ -739,7 +729,7 @@ Las operaciones administrativas sobre productos pueden emitir eventos para actua
 # Estructura del proyecto
 
 ```text
-backend-entregaFinal/
+backend2-entregaFinal/
 
 ├── config/
 │   ├── db.js
@@ -798,7 +788,7 @@ backend-entregaFinal/
 │
 ├── app.js
 ├── package.json
-├── .env
+├── .env.example
 └── README.md
 ```
 
